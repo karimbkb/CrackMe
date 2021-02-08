@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3242C5EE25CFF9AE00967CD1 /* CrackMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242C5ED25CFF9AE00967CD1 /* CrackMeApp.swift */; };
+		3242C5F025CFF9AE00967CD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242C5EF25CFF9AE00967CD1 /* ContentView.swift */; };
+		3242C5F225CFF9AE00967CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3242C5F125CFF9AE00967CD1 /* Assets.xcassets */; };
+		3242C5F525CFF9AE00967CD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3242C5F425CFF9AE00967CD1 /* Preview Assets.xcassets */; };
+		3242C60125CFF9AE00967CD1 /* CrackMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242C60025CFF9AE00967CD1 /* CrackMeTests.swift */; };
+		3242C60C25CFF9AF00967CD1 /* CrackMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242C60B25CFF9AF00967CD1 /* CrackMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3242C5FD25CFF9AE00967CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3242C5E225CFF9AE00967CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3242C5E925CFF9AE00967CD1;
+			remoteInfo = CrackMe;
+		};
+		3242C60825CFF9AF00967CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3242C5E225CFF9AE00967CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3242C5E925CFF9AE00967CD1;
+			remoteInfo = CrackMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3242C5EA25CFF9AE00967CD1 /* CrackMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242C5ED25CFF9AE00967CD1 /* CrackMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackMeApp.swift; sourceTree = "<group>"; };
+		3242C5EF25CFF9AE00967CD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 6; usesTabs = 0; };
+		3242C5F125CFF9AE00967CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3242C5F425CFF9AE00967CD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3242C5F625CFF9AE00967CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3242C5F725CFF9AE00967CD1 /* CrackMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrackMe.entitlements; sourceTree = "<group>"; };
+		3242C5FC25CFF9AE00967CD1 /* CrackMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242C60025CFF9AE00967CD1 /* CrackMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackMeTests.swift; sourceTree = "<group>"; };
+		3242C60225CFF9AE00967CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3242C60725CFF9AF00967CD1 /* CrackMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242C60B25CFF9AF00967CD1 /* CrackMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackMeUITests.swift; sourceTree = "<group>"; };
+		3242C60D25CFF9AF00967CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3242C5E725CFF9AE00967CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C5F925CFF9AE00967CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C60425CFF9AF00967CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3242C5E125CFF9AE00967CD1 = {
+			isa = PBXGroup;
+			children = (
+				3242C5EC25CFF9AE00967CD1 /* CrackMe */,
+				3242C5FF25CFF9AE00967CD1 /* CrackMeTests */,
+				3242C60A25CFF9AF00967CD1 /* CrackMeUITests */,
+				3242C5EB25CFF9AE00967CD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3242C5EB25CFF9AE00967CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3242C5EA25CFF9AE00967CD1 /* CrackMe.app */,
+				3242C5FC25CFF9AE00967CD1 /* CrackMeTests.xctest */,
+				3242C60725CFF9AF00967CD1 /* CrackMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3242C5EC25CFF9AE00967CD1 /* CrackMe */ = {
+			isa = PBXGroup;
+			children = (
+				3242C5ED25CFF9AE00967CD1 /* CrackMeApp.swift */,
+				3242C5EF25CFF9AE00967CD1 /* ContentView.swift */,
+				3242C5F125CFF9AE00967CD1 /* Assets.xcassets */,
+				3242C5F625CFF9AE00967CD1 /* Info.plist */,
+				3242C5F725CFF9AE00967CD1 /* CrackMe.entitlements */,
+				3242C5F325CFF9AE00967CD1 /* Preview Content */,
+			);
+			path = CrackMe;
+			sourceTree = "<group>";
+		};
+		3242C5F325CFF9AE00967CD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3242C5F425CFF9AE00967CD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3242C5FF25CFF9AE00967CD1 /* CrackMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3242C60025CFF9AE00967CD1 /* CrackMeTests.swift */,
+				3242C60225CFF9AE00967CD1 /* Info.plist */,
+			);
+			path = CrackMeTests;
+			sourceTree = "<group>";
+		};
+		3242C60A25CFF9AF00967CD1 /* CrackMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3242C60B25CFF9AF00967CD1 /* CrackMeUITests.swift */,
+				3242C60D25CFF9AF00967CD1 /* Info.plist */,
+			);
+			path = CrackMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3242C5E925CFF9AE00967CD1 /* CrackMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3242C61025CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMe" */;
+			buildPhases = (
+				3242C5E625CFF9AE00967CD1 /* Sources */,
+				3242C5E725CFF9AE00967CD1 /* Frameworks */,
+				3242C5E825CFF9AE00967CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackMe;
+			productName = CrackMe;
+			productReference = 3242C5EA25CFF9AE00967CD1 /* CrackMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3242C5FB25CFF9AE00967CD1 /* CrackMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3242C61325CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMeTests" */;
+			buildPhases = (
+				3242C5F825CFF9AE00967CD1 /* Sources */,
+				3242C5F925CFF9AE00967CD1 /* Frameworks */,
+				3242C5FA25CFF9AE00967CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3242C5FE25CFF9AE00967CD1 /* PBXTargetDependency */,
+			);
+			name = CrackMeTests;
+			productName = CrackMeTests;
+			productReference = 3242C5FC25CFF9AE00967CD1 /* CrackMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3242C60625CFF9AF00967CD1 /* CrackMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3242C61625CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMeUITests" */;
+			buildPhases = (
+				3242C60325CFF9AF00967CD1 /* Sources */,
+				3242C60425CFF9AF00967CD1 /* Frameworks */,
+				3242C60525CFF9AF00967CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3242C60925CFF9AF00967CD1 /* PBXTargetDependency */,
+			);
+			name = CrackMeUITests;
+			productName = CrackMeUITests;
+			productReference = 3242C60725CFF9AF00967CD1 /* CrackMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3242C5E225CFF9AE00967CD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3242C5E925CFF9AE00967CD1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3242C5FB25CFF9AE00967CD1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3242C5E925CFF9AE00967CD1;
+					};
+					3242C60625CFF9AF00967CD1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3242C5E925CFF9AE00967CD1;
+					};
+				};
+			};
+			buildConfigurationList = 3242C5E525CFF9AE00967CD1 /* Build configuration list for PBXProject "CrackMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3242C5E125CFF9AE00967CD1;
+			productRefGroup = 3242C5EB25CFF9AE00967CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3242C5E925CFF9AE00967CD1 /* CrackMe */,
+				3242C5FB25CFF9AE00967CD1 /* CrackMeTests */,
+				3242C60625CFF9AF00967CD1 /* CrackMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3242C5E825CFF9AE00967CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242C5F525CFF9AE00967CD1 /* Preview Assets.xcassets in Resources */,
+				3242C5F225CFF9AE00967CD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C5FA25CFF9AE00967CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C60525CFF9AF00967CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3242C5E625CFF9AE00967CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242C5F025CFF9AE00967CD1 /* ContentView.swift in Sources */,
+				3242C5EE25CFF9AE00967CD1 /* CrackMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C5F825CFF9AE00967CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242C60125CFF9AE00967CD1 /* CrackMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242C60325CFF9AF00967CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242C60C25CFF9AF00967CD1 /* CrackMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3242C5FE25CFF9AE00967CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3242C5E925CFF9AE00967CD1 /* CrackMe */;
+			targetProxy = 3242C5FD25CFF9AE00967CD1 /* PBXContainerItemProxy */;
+		};
+		3242C60925CFF9AF00967CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3242C5E925CFF9AE00967CD1 /* CrackMe */;
+			targetProxy = 3242C60825CFF9AF00967CD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3242C60E25CFF9AF00967CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3242C60F25CFF9AF00967CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3242C61125CFF9AF00967CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrackMe/CrackMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CrackMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrackMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3242C61225CFF9AF00967CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrackMe/CrackMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CrackMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrackMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3242C61425CFF9AF00967CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrackMe.app/Contents/MacOS/CrackMe";
+			};
+			name = Debug;
+		};
+		3242C61525CFF9AF00967CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrackMe.app/Contents/MacOS/CrackMe";
+			};
+			name = Release;
+		};
+		3242C61725CFF9AF00967CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CrackMe;
+			};
+			name = Debug;
+		};
+		3242C61825CFF9AF00967CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrackMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karimb.CrackMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CrackMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3242C5E525CFF9AE00967CD1 /* Build configuration list for PBXProject "CrackMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3242C60E25CFF9AF00967CD1 /* Debug */,
+				3242C60F25CFF9AF00967CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3242C61025CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3242C61125CFF9AF00967CD1 /* Debug */,
+				3242C61225CFF9AF00967CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3242C61325CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3242C61425CFF9AF00967CD1 /* Debug */,
+				3242C61525CFF9AF00967CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3242C61625CFF9AF00967CD1 /* Build configuration list for PBXNativeTarget "CrackMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3242C61725CFF9AF00967CD1 /* Debug */,
+				3242C61825CFF9AF00967CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3242C5E225CFF9AE00967CD1 /* Project object */;
+}
