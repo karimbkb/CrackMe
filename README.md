@@ -1,7 +1,7 @@
 # CrackMe
 A simple crack me app written in Swift
 
-![alt text](https://i.imgur.com/X2Fje0r.png "CrackMe App")
+![CrackMe App](https://drive.google.com/uc?export=download&id=1t7yfYgkW-1n6YBTEzgQ6BkAXbfrphuvi "CrackMe App")
 
 ### Tested with
 * Xcode 12.3
@@ -18,10 +18,10 @@ A simple crack me app written in Swift
 When disassembling the app you can basically search for the register `0x01000206d` and assemble the instruction to `jmp` to the register `0x01000020d4`. When this is done you can produce a new executable and from that point on anything you type into the username and password will be valid.
 
 Original assembly code:
-![alt text](https://i.imgur.com/j2jRWna.jpg "CrackMe App Assembly Code")
+![CrackMe App Assembly Code](https://drive.google.com/uc?export=download&id=1ishqKO8LHzALU31OMbwBkhMPXgUhK_sp "CrackMe App Assembly Code")
 
 After modification:
-![alt text](https://i.imgur.com/eZttCFC.jpg "CrackMe App Assembly Code")
+![CrackMe App Assembly Code](https://drive.google.com/uc?export=download&id=16Vg8FGRoIncnaMIxRe16l6cMCVgxRnoV "CrackMe App Assembly Code")
 
 ### Solution
 
